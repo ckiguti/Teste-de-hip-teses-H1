@@ -17,7 +17,7 @@ This capsule is private and its environment cannot be downloaded at this time. Y
 
 In your terminal, navigate to the folder where you've extracted the capsule and execute the following command:
 ```shell
-cd environment && docker build . --tag {{ reportId }}; cd ..
+cd environment && docker build . --tag ac729fc65bb654ac; cd ..
 ```
 
 > This step will recreate the environment (i.e., the Docker image) locally, fetching and installing any required dependencies in the process. If any external resources have become unavailable for any reason, the environment will fail to build.
@@ -31,5 +31,5 @@ docker run --rm \
   --volume "$PWD/data":/data \
   --volume "$PWD/code":/code \
   --volume "$PWD/results":/results \
-  {{ reportId }} ./run
+  ac729fc65bb654ac ./run
 ```
