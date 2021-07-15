@@ -46,7 +46,7 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | non.gamified | fss      |  16 | 3.528 |  3.500 | 2.556 | 4.556 | 0.548 | 0.137 | 0.292 | 0.667 | YES      |    0.144 |   -0.655 |
 | NA           | fss      |  32 | 3.528 |  3.444 | 2.556 | 4.556 | 0.620 | 0.110 | 0.223 | 0.833 | YES      |    0.327 |   -1.096 |
 
-![](/home/rstudio/report/ancova/fab0cc16cb2a258b/results/ancova_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](ancova_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
 
 ## Checking of Assumptions
 
@@ -120,7 +120,7 @@ ggscatter(sdat[["fss"]], x=covar, y="fss", facet.by=between, short.panel.labs = 
 
     ## `geom_smooth()` using formula 'y ~ x'
 
-![](/home/rstudio/report/ancova/fab0cc16cb2a258b/results/ancova_files/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
+![](ancova_files/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
 
 ### Assumption: Homogeneity of data distribution
 
@@ -144,7 +144,7 @@ Descriptive statistics of data with normal distribution
 | fss.1 | gamified     | fss      |  13 | 3.701 |  3.444 | 2.889 | 4.556 | 0.664 | 0.184 | 0.401 | 1.333 |
 | fss.2 | non.gamified | fss      |  16 | 3.530 |  3.500 | 2.667 | 4.472 | 0.525 | 0.131 | 0.280 | 0.667 |
 
-![](/home/rstudio/report/ancova/fab0cc16cb2a258b/results/ancova_files/figure-gfm/unnamed-chunk-18-1.png)<!-- -->
+![](ancova_files/figure-gfm/unnamed-chunk-18-1.png)<!-- -->
 
 ## Computation of ANCOVA test and Pairwise Comparison
 
@@ -181,7 +181,7 @@ plots <- oneWayAncovaPlots(sdat[["fss"]], "fss", between
 plots[["scenario"]]
 ```
 
-![](/home/rstudio/report/ancova/fab0cc16cb2a258b/results/ancova_files/figure-gfm/unnamed-chunk-26-1.png)<!-- -->
+![](ancova_files/figure-gfm/unnamed-chunk-26-1.png)<!-- -->
 
 ### Textual Report
 
