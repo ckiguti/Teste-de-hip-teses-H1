@@ -163,10 +163,10 @@ Descriptive statistics of data with normal distribution
 
 ### Descriptive Statistic of Estimated Marginal Means
 
-| var | scenario     |   n | emmean |  mean | conf.low | conf.high |    sd | sd.emms | se.emms |
-|:----|:-------------|----:|-------:|------:|---------:|----------:|------:|--------:|--------:|
-| fss | gamified     |  13 |  3.708 | 3.701 |    3.358 |     4.059 | 0.664 |   0.615 |   0.170 |
-| fss | non.gamified |  16 |  3.523 | 3.530 |    3.209 |     3.838 | 0.525 |   0.612 |   0.153 |
+| var | scenario     |   dfs | emmean | se.emms |  df | conf.low | conf.high | method       |   n |  mean | median |   min |   max |    sd | se.ds |    ci |   iqr | n.dfs | mean.dfs | median.dfs | min.dfs | max.dfs | sd.dfs | se.dfs | ci.dfs | iqr.dfs | sd.emms |
+|:----|:-------------|------:|-------:|--------:|----:|---------:|----------:|:-------------|----:|------:|-------:|------:|------:|------:|------:|------:|------:|------:|---------:|-----------:|--------:|--------:|-------:|-------:|-------:|--------:|--------:|
+| fss | gamified     | 3.499 |  3.708 |   0.170 |  26 |    3.358 |     4.059 | Emmeans test |  13 | 3.701 |  3.444 | 2.889 | 4.556 | 0.664 | 0.184 | 0.401 | 1.333 |    13 |    3.376 |      3.556 |   2.722 |   3.833 |  0.433 |  0.120 |  0.262 |   0.778 |   0.615 |
+| fss | non.gamified | 3.499 |  3.523 |   0.153 |  26 |    3.209 |     3.838 | Emmeans test |  16 | 3.530 |  3.500 | 2.667 | 4.472 | 0.525 | 0.131 | 0.280 | 0.667 |    16 |    3.599 |      3.778 |   2.889 |   4.028 |  0.393 |  0.098 |  0.209 |   0.667 |   0.612 |
 
 ### Ancova plots for the dependent variable “fss”
 
